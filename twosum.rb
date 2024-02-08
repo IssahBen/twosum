@@ -1,5 +1,5 @@
 
-ddef two_sum(nums, target)
+def two_sum(nums, target)
 indices=[]
   nums.each_with_index do |x,i|
       index=i+1
